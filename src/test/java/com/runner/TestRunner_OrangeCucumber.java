@@ -8,7 +8,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = ".\\FeatureFiles\\FeatureFiles.feature",
-glue = {"com.stepdef"},
+glue = {"com.runner"},
 monochrome = true,
 
 plugin = "junit:target/Report/cucumber.junit"
